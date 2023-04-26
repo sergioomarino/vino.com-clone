@@ -1,0 +1,51 @@
+.banner{
+    height: 40vh;
+    max-width:100%;
+    width: 99%;
+    font-display:inherit;
+    
+   background-image: url(C:\Users\SergioMarino\Desktop\training\27-vinocom\src\immagini\vinobanner3.jpg); 
+ 
+}
+.splice{
+    padding:80%
+}
+.banner-title {
+        position: relative;
+        padding-top: 20vh;
+        font-family: 'Montserrat',sans-serif;
+        text-shadow: 2px 2px 3px rgb(0 0 0 / 50%);
+        font-weight: 600;
+        margin-bottom: 0;
+        
+       
+        color: aliceblue;
+        text-align: center;
+        font-size: xx-large;
+        
+}
+.banner-subtitle {
+    position: relative;
+    
+    font-family: 'Montserrat',sans-serif;
+    text-shadow: 2px 2px 3px rgb(0 0 0 / 50%);
+    font-weight: 600;
+    margin-bottom: 0;
+    
+   
+    color: aliceblue;
+    text-align: center;
+    font-size:larger;
+    
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(10vh);
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+}
+
+.fade-in.in-page {
+    opacity: 1;
+    transform: translateY(0vh);
+}

@@ -1,0 +1,49 @@
+.carrellone{
+    font-family: 'Montserrat', sans-serif;
+color: gray;
+background-color:  #f2f2f2;
+margin-top: 2vh;
+margin-left: 1vh;
+}
+
+.chart{
+    padding-left: 14vh;
+    padding-right: 4vh;
+    padding-top: 2vh;
+    font-weight: 500;
+}
+
+.dividicarrello{
+    padding-left: 3%;
+   position: relative;
+    display: inline-flex;
+    width: 65%;
+}
+.colonnadestra{
+   
+    width: 41%;
+    height: 10%;
+    display: inline;
+    position: relative;
+    background-color: #ebf5ec;;
+    padding-bottom: 4%;
+  
+
+}
+.dentrocolonnadestra{
+    position:relative;
+    font-size: xx-small;
+    display: block;
+    font-weight: 300;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+   
+}
+.largo{
+    width: 17.8%;
+    left: -17.8%;
+    margin-top: 7%;
+
+    
+}

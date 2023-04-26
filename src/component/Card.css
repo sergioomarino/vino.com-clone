@@ -1,0 +1,46 @@
+
+*{box-sizing: border-box;}
+.card-contein{
+    height:40vh;
+    width: 35vh;
+    
+    
+}
+.bottiglia{
+    height: 33vh;
+    width: 10vh;
+    padding-left: 1vh;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+   display:inline-flex;
+padding-bottom: 2vh;}
+
+.colonna{
+    font-size: x-small;
+    
+    display: inline;
+    height: 30vh;
+    width: 24vh;
+    position:absolute;
+    font-family: sans-serif;
+    color: #323031 ;
+    padding-top: 2vh;
+    
+    font-weight: bold;
+}
+.footercard{
+   
+}
+.buttonaggiungi{
+  left: 1px;
+ height:6vh; 
+ width:25vh;
+align-items: center;
+ position: relative;
+ 
+}
+.aggiungi{
+    font-size: small;
+    
+    height: 5vh;
+}
